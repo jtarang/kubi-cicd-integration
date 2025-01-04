@@ -1,0 +1,57 @@
+# .gitignore for Python and JetBrains IDEs
+.idea
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.log
+
+# Python virtual environments
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# Poetry
+*.lock
+poetry.lock
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+*.coveragerc
+
+# mypy
+.mypy_cache/
+.dmypy.json
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.log
+
+# JetBrains IDEs (e.g., IntelliJ IDEA, PyCharm, etc.)
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db

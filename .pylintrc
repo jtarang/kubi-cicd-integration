@@ -1,0 +1,10 @@
+[MASTER]
+disable=missing-module-docstring,C0103
+max-line-length=120
+
+[REPORTS]
+output-format=colorized
+
+[MESSAGES CONTROL]
+disable=protected-access,too-few-public-methods,import-error
+fail-under=8.5
