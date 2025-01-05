@@ -88,7 +88,11 @@ Choose one of the following methods to run the application:
 2. Run the application:
 
    ```bash
+   # From repo_root_dir/app/
    poetry run uvicorn main:app --reload
+
+   # From root repo directory 
+   poetry run uvicorn app.main:app --reload
    ```
 
 ### Using Docker Compose
