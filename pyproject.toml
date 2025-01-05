@@ -2,7 +2,7 @@
 name = "kubi-cicd-integration"
 version = "0.1.0"
 description = "Kubiya CI/CD Integration Repo"
-authors = [""]
+authors = ["Jasmit Tarang <jaytarang92@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

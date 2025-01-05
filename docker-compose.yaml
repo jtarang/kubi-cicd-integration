@@ -2,6 +2,7 @@ version: "3.9"
 
 services:
   fastapi-app:
+    image:  ghcr.io/jtarang/kubi-cicd-integration:${VERSION_TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile
