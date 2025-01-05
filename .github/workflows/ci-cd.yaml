@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           poetry install
-          poetry run pylint kubi_cicd_integration/
+          poetry run pylint .
 
   test:
     runs-on: ubuntu-latest
