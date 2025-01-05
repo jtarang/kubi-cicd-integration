@@ -13,9 +13,30 @@ This repository contains the integration for **Kubi CI/CD**. It is built using *
 
 ---
 
+## Prerequisites
+Before running the application, ensure that the following tools are installed on your system:
+
+### Docker
+
+```bash
+docker --version
+```
+
+### Python 3.13
+```bash
+python --version
+```
+
+### Poetry
+
+```bash
+pip install poetry
+poetry --version
+````
+
 ## Installation
 
-### 1. Clone the repository
+### Clone the Repository
 
 First, clone the repository to your local machine:
 
@@ -26,13 +47,21 @@ cd kubi-cicd-integration
 
 ## Running the Application
 ### Using Poetry 
-```bash poetry install```
+```bash
+ poetry install
+ ```
 
 ### Using Docker Compose
-```bash docker compose up --build```
+```bash
+docker compose up --build
+```
 
 ## Testing
-```bash poetry run pytest```
+```bash 
+poetry run pytest
+```
 
 ## Linting
-```bash poetry run pylint```
+```bash
+poetry run pylint
+```
