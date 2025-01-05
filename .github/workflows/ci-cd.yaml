@@ -1,5 +1,8 @@
 name: CI/CD Pipeline
 
+on:
+  push: {}
+
 env:
   IMAGE_NAME:  ghcr.io/jtarang/kubi-cicd-integration
 
