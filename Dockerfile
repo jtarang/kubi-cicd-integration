@@ -19,7 +19,7 @@ COPY pyproject.toml poetry.lock ./
 
 # Install dependencies in a virtual environment
 RUN poetry config virtualenvs.create false \
-    && poetry install --no-dev --no-interaction --no-ansi
+    && poetry install --no-interaction --no-ansi
 
 # Stage 2: Production environment
 FROM python:3.13-slim
