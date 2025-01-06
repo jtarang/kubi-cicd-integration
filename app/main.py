@@ -10,7 +10,7 @@ async def home():
 
 class Item(BaseModel):
     """ Item Model for Request Validation """
-    name: str = Field(..., min_length=1, max_length=50, description="The name of the item")
+    name: int = Field(..., min_length=1, max_length=50, description="The name of the item")
     description: str = Field(..., max_length=200, description="A short description of the item")
     price: float = Field(..., gt=0, description="The price of the item")
     quantity: int = Field(..., ge=1, description="The quantity of the item available")
